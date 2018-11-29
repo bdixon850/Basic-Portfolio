@@ -4,33 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1>Brandon Dixon</h1>
+        <div class="header">
+            <h1 class="name">Brandon Dixon</h1>
+            <nav class="navbar">
+                <a href="index.html" style="color:#4aaaa5">About</a>
+                <a href="portfolio.html" style="color:#4aaaa5">Portfolio</a>
+                <a href="contact.html" style="color:#4aaaa5">Contact</a>
+            </nav>
+        </div>
     </header>
-        
-    <div class="topnav">
-        <a href="#about">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </div>
 
-    <section>
-        <h1>Contact</h1>
-
-        <div class="Contact Information">
-            <form action="/action_page.php">
-                <label for="fname">Name</label>
-                <input type="text" id="fname" name="fullname" placeholder="John Smith">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                <label for="message">Message</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    <section class="information">
+        <h1 class="headers">Contact</h1>
+        <div class="container">
+            <form action="action_page.php">
+              
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                <label for="country">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email..">
+              
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              
                 <input type="submit" value="Submit">
+              
             </form>
         </div>
+
+        
     </section>
     
     <footer>Copyright &copy;</footer>

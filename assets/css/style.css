@@ -86,3 +86,23 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 }
+
+
+@media screen and (max-width: 768px) {
+.header {
+    width: 50%;
+}
+
+.Pictures {
+    width: 30%;
+
+}
+
+.nav {
+    position: relative;
+    display: inline;
+    margin: 0;
+    padding-right: .15em;
+}
+
+}
